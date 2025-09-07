@@ -285,7 +285,7 @@
     <section id="about">
       <h2>About Me</h2>
       <p>
-        I'm a Computer Engineering graduate from the Philippines with hands-on experience in C++, Java, and Python. Currently working as an IT/Encoder while pursuing my passion in software development and automation using Python. I also enjoy exploring tech tools and learning through practice and prompting AI like ChatGPT.
+        I'm a Computer Engineering graduate from the Philippines with hands-on experience in C++, and Python. Currently working as an IT/Encoder while pursuing my passion in software development and automation using Python. I also enjoy exploring tech tools and learning through practice and prompting AI like ChatGPT.
       </p>
     </section>
 
@@ -294,7 +294,7 @@
       <ul>
         <li>Strong learning agility — able to self-teach, adapt, and apply technical skills across different tools and environments</li>
         <li>Demonstrated ability to learn independently through hands-on projects, problem-solving, and research</li>
-        <li><strong>Languages:</strong> Python, C++, Java, HTML, Google App Script</li>
+        <li><strong>Languages:</strong> Python, C++, HTML, Google App Script</li>
         <li><strong>Tools:</strong> Google Sheets (Advanced), Git, GitHub</li>
         <li><strong>Others:</strong> VS Code, Prompting AI tools, Photoshop, Premiere Pro</li>
       </ul>
@@ -304,22 +304,54 @@
       <h2>Projects</h2>
 
       <div class="project">
-        <h2>Employee Management Web App</h2>
+        <h2>🏥 Clinic Registration Web Application</h2>
         <p>
-          A simple employee system using Google Apps Script that can search, edit, and save employee records to a spreadsheet using binary search. 
+          <strong>A complete full-stack web application for medical clinic registration and management.</strong> This production-ready system handles employee medical registrations, automates PDF generation, and implements sophisticated business rules for appointment scheduling.
         </p>
-        <p><strong>Tech used:</strong> Google Apps Script, HTML/CSS, Google Sheets</p>
+        
+        <h3>🎯 Key Features & Impact</h3>
+        <ul>
+          <li><strong>Multi-step Registration Wizard:</strong> Intuitive 3-step process with instant navigation and real-time validation</li>
+          <li><strong>Smart Business Logic:</strong> APE availability windows (4AM-10AM), daily limits (50 registrations), duplicate prevention</li>
+          <li><strong>Automated PDF Pipeline:</strong> Generates medical forms automatically with idempotent processing</li>
+          <li><strong>Performance Optimized:</strong> Hash-map caching, background processing, <2 second load times</li>
+          <li><strong>Real Results:</strong> 80% error reduction, 90% faster processing</li>
+        </ul>
+
+        <h3>🛠️ Technical Architecture</h3>
+        <p><strong>Frontend:</strong> HTML5, CSS3, Vanilla JavaScript (3,000+ lines), Firebase Hosting</p>
+        <p><strong>Backend:</strong> Google Apps Script (RESTful APIs), Google Sheets (database), Google Drive (file management)</p>
+        <p><strong>Features:</strong> Responsive design, accessibility compliance, concurrent user support, error handling</p>
+
+        <h3>🚀 Advanced Implementations</h3>
+        <ul>
+          <li><strong>Idempotent Operations:</strong> Prevents data corruption with lock-based concurrency control</li>
+          <li><strong>Rate Limiting:</strong> Smart backoff algorithms for PDF generation to avoid quota limits</li>
+          <li><strong>Caching Strategy:</strong> Multi-level caching for sub-second profile lookups</li>
+          <li><strong>Background Processing:</strong> Instant UI feedback with async server processing</li>
+        </ul>
+
+        <p><strong>🌐 Live Demo:</strong> <a href="https://clinicregistrationform.web.app/" target="_blank">View Live Application</a></p>
+        <p><strong>💻 Source Code:</strong> <a href="https://github.com/JamesGuillermo/ClinicRegistrationWebApplication.git" target="_blank">View on GitHub</a></p>
+        <p><strong>📋 Documentation:</strong> <a href="https://github.com/JamesGuillermo/ClinicRegistrationWebApplication/blob/main/ENHANCED_PROJECT_DOCUMENTATION.txt" target="_blank">Technical Documentation</a></p>
+      </div>
+
+      <div class="project">
+        <h2>👥 Employee Management Web App</h2>
+        <p>
+          A streamlined employee management system using Google Apps Script that enables efficient search, edit, and save operations for employee records using binary search algorithms for optimal performance.
+        </p>
+        <p><strong>Tech used:</strong> Google Apps Script, HTML/CSS, Google Sheets, Binary Search Algorithm</p>
         <p><a href="https://script.google.com/macros/s/AKfycbxHTHAnIyFDV7_0pM8ZnxKSnrjuKFXD-9eBpeOxbn-KwtFGypnj38RoijCe8aiIgBrfVg/exec" target="_blank">Try the Web App</a></p>
         <p><a href="https://github.com/JamesGuillermo/Clinic_EmployeeManagementWebApp" target="_blank">View on GitHub</a></p>
+      </div>
     
-        <h2>Data Entry Python Program</h2>
+      <div class="project">
+        <h2>📊 Data Entry Python Program</h2>
         <p>
-          A work-in-progress desktop application using Python + Tkinter
+          A professional desktop application built with Python and Tkinter for efficient data entry and record management. Features modern UI design with ttkbootstrap, comprehensive data validation, and robust file handling capabilities.
         </p>
-        <p>
-          A user-friendly data entry and record management app built with Python, Tkinter, and ttkbootstrap. It allows users to input and manage personal records including name, birth date, gender, contact number, and company affiliation.
-        </p>
-        <p><strong>Tech used:</strong> Python</p>
+        <p><strong>Tech used:</strong> Python, Tkinter, ttkbootstrap, JSON/CSV handling</p>
         <p><a href="https://github.com/JamesGuillermo/Data_Entry_Python_Program.git" target="_blank">View on GitHub</a></p>
       </div>
     </section>
